@@ -10,6 +10,8 @@ From npm
 
 $ npm install vue-date-filter --save-dev
 
+```
+
 ##Usage
 
 ```Javascript
