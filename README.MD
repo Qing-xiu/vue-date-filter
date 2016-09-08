@@ -2,11 +2,18 @@
 
 date filter for Vue.js
 
-###UMD
+##Install
 
-支持CMD,AMD
+From npm
+
+```sh
+
+$ npm install vue-date-filter --save-dev
+
+##Usage
 
 ```Javascript
+
 // es6
 import date from 'index.js'
 
@@ -16,6 +23,7 @@ Vue.use(date)
 var date = require('index.js').default;
 Vue.use(date)
 
+```
 
 ```HTML
 
@@ -23,4 +31,4 @@ Vue.use(date)
 
 {{now | date 'YYYY年MM月DD日 hh时mm分ss秒'}}
 
-
+```
