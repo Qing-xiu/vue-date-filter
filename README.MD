@@ -17,7 +17,7 @@ $ npm install vue-date-filter --save-dev
 ```Javascript
 
 // es6
-import date from 'index.js'
+import date from 'vue-date-filter'
 
 Vue.use(date)
 
