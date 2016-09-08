@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue-date-filter</title>
+	<script data-main="./src/index.js" src="./src/require.js"></script>
+	<style type="text/css">
+		body{
+			 font-family: Helvetica,Arial,"Hiragino Sans GB", "微软雅黑", "Microsoft YaHei",   sans-serif;
+  			-webkit-font-smoothing: antialiased;
+		}
+		.demo{
+			
+			font-size: 18px;
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<div class="demo">{{now | date 'YYYY-MM-DD hh:mm:ss'}}</div>
+	<div class="demo">{{now | date 'YYYY年MM月DD日 hh时mm分ss秒'}}</div>
+</body>
+</html>
